@@ -22,7 +22,7 @@
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <application
-        android:name="com.santansarah.scan.SanTanScanApp"
+        android:name="com.arunabhdas.scan.SanTanScanApp"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -39,7 +39,7 @@
             tools:node="remove">
         </provider>
         <activity
-            android:name="com.santansarah.scan.presentation.MainActivity"
+            android:name="com.arunabhdas.scan.presentation.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.SanTanScanner">

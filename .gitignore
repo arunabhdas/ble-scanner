@@ -60,7 +60,7 @@ captures/
 .cxx/
 
 # Google Services (e.g. APIs or Firebase)
-# google-services.json
+google-services.json
 
 # Freeline
 freeline.py
@@ -85,7 +85,7 @@ lint/tmp/
 # lint/reports/
 
 
-/app.properties
+# /app.properties
 /app/src/main/res/values/secrets.xml
 /.idea
 /ble-scanner.sqbpro
@@ -98,6 +98,6 @@ lint/tmp/
 /sharedTest/src/main/java/com/santansarah/sharedtest/BLEMfrIds.kt
 /sharedTest/src/main/java/com/santansarah/sharedtest/Companies.kt
 /sharedTest/src/main/java/com/santansarah/sharedtest/ServiceIds.kt
-/app/google-services.json
+# /app/google-services.json
 /app/src/main/res/font/kanit_regular.ttf
 /app/santanscan.jks

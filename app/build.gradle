@@ -9,11 +9,11 @@ plugins {
 }
 
 android {
-    namespace 'com.santansarah.scan'
+    namespace 'com.arunabhdas.scan'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.santansarah.scan"
+        applicationId "com.arunabhdas.scan"
         minSdk 28
         targetSdk 33
         versionCode 3
@@ -159,7 +159,8 @@ dependencies {
     androidTestImplementation "io.insert-koin:koin-test-junit5:$koin_android_version"
     androidTestImplementation 'androidx.test:core:1.5.0'
     androidTestImplementation 'androidx.test:runner:1.5.2'
-    androidTestImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    androidTestImplementation("org.junit.jupiter:junit-jupiter-api:5.7.2")
+    // TODO-FIXME-CLEANUP androidTestImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
     androidTestImplementation 'de.mannodermaus.junit5:android-test-core:1.3.0'
     androidTestRuntimeOnly 'de.mannodermaus.junit5:android-test-runner:1.3.0'
     //androidTestImplementation 'org.junit.platform:junit-platform-suite-engine:1.9.2'
@@ -174,6 +175,8 @@ dependencies {
     debugImplementation "androidx.compose.ui:ui-test-manifest"
 
     androidTestImplementation 'de.mannodermaus.junit5:android-test-compose:0.1.0-SNAPSHOT'
+    androidTestImplementation("de.mannodermaus.junit5:android-test-core:1.2.2")
+    androidTestRuntimeOnly("de.mannodermaus.junit5:android-test-runner:1.2.2")
 
 
 }
